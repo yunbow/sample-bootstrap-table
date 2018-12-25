@@ -20,7 +20,6 @@
         ];
 
         userTable.bootstrapTable({
-            treeShowField: 'name',
             data: initDataList,
             columns: [
                 {
