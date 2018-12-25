@@ -148,6 +148,11 @@
             pageList: [5, 10, 25, 50, 100],
             columns: [
                 {
+                    field: 'selected',
+                    checkbox: true,
+                    align: 'center'
+                },
+                {
                     field: 'name',
                     title: 'Name',
                     sortable: true
